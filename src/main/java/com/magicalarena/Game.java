@@ -52,13 +52,9 @@ public class Game {
 
     public static void main(String[] args) {
         Player playerA = new Player(100, 10, 5);
-        Player playerB = new Player(50, 5, 10);
+        Player playerB = new Player(50, 5, 5);
 
         Game game = new Game(playerA, playerB);
         game.start();
-    }
-
-    public Player getPlayerA() {
-        return playerA;
     }
 }
