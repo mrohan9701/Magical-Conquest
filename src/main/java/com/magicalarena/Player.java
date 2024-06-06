@@ -1,4 +1,4 @@
-package com.magicalarena;
+package main.java.com.magicalarena;
 
 public class Player {
     private int health;
