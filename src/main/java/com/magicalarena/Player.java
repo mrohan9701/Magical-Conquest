@@ -1,4 +1,4 @@
-package main.java.com.magicalarena;
+package com.magicalarena;
 
 public class Player {
     // Private fields for player attributes

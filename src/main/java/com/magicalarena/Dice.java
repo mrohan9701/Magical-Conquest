@@ -1,4 +1,4 @@
-package main.java.com.magicalarena;
+package com.magicalarena;
 
 import java.util.Random;
 
