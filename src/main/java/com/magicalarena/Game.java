@@ -1,6 +1,7 @@
 package com.magicalarena;
 
 public class Game {
+    //Initialize players and dice
     private Player playerA;
     private Player playerB;
     private Dice dice;
@@ -10,9 +11,9 @@ public class Game {
         this.playerB = playerB;
         this.dice = new Dice();
     }
-
+    // Start the game
     public void start() {
-        Player attacker, defender;
+        Player attacker, defender; // Declare attacker and defender variables
         while (playerA.isAlive() && playerB.isAlive()) {
             if (playerA.getHealth() <= playerB.getHealth()) {
                 attacker = playerA;
