@@ -31,3 +31,4 @@ This is turn-based fighting game where two players attack and defend in turns. T
 - Hamcrest 1.3 (for unit testing)
 
 
+"# Magical-Conquest" 
